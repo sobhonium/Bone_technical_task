@@ -81,7 +81,7 @@ What it shows: Whether the conversation is balanced or dominated by one speaker.
 
 
 
-### Emotion Breakdown per Speake
+### Emotion Breakdown per Speaker
 Computes emotion scores for each message. For this, `text2emotion` is used which automatically calculates the following emotions in text:
 <pre>emotion_cols = ['Happy', 'Angry', 'Surprise', 'Sad', 'Fear']</pre>
 
@@ -94,7 +94,7 @@ Computes emotion scores for each message. For this, `text2emotion` is used which
 
 # Results (screenshots)
 
-See the pdf ourput files uploaded as `output1.pdf`, `output2.pdf` `output3.pdf`.
+See the pdf ourput files uploaded as `output1.pdf`, `output2.pdf` and `output3.pdf`.
 
 # In one extra hour I would add
 ###### (it might however be more than an hour but I'm just keeping it here)
