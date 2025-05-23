@@ -1,0 +1,11 @@
+transformers==4.38.2 
+torch
+streamlit
+seaborn
+pandas
+langchain 
+langchain_groq
+python-dotenv
+spacy
+pytest
+numpy==1.24.1
