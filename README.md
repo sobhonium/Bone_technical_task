@@ -87,8 +87,10 @@ Computes emotion scores for each message. For this, `text2emotion` is used which
 
 # Potential Issues
 
-The `text2emotion` package relies on an older version of the `emoji` library, where `emoji.UNICODE_EMOJI` or `emoji.EMOJI_DATA` was available. In more recent versions (from `emoji>=2.0.0`), these internal data structures were moved or removed. If you run into errors, you need to replace   `emoji.UNICODE_EMOJI` with `emoji.EMOJI_DATA` in 
+- The `text2emotion` package relies on an older version of the `emoji` library, where `emoji.UNICODE_EMOJI` or `emoji.EMOJI_DATA` was available. In more recent versions (from `emoji>=2.0.0`), these internal data structures were moved or removed. If you run into errors, you need to replace   `emoji.UNICODE_EMOJI` with `emoji.EMOJI_DATA` in 
 ```..../miniconda3/envs/<env-name>/lib/python3.10/site-packages/text2emotion/__init__.py``` file in your file system.
+
+- Don't forget to add API keys in `.env` file that you are generating.
 
 # Results (screenshots)
 
