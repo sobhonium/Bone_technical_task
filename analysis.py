@@ -58,6 +58,9 @@ def compute_filler_ratio(text, filler_words):
 
 
 def compute_sentiment(conversation, filler_words):
+    '''Does sentiment analysis using hugginface and also it's computing
+    the ration of filler words to all words in a text given.'''
+    
     # Load Hugging Face sentiment analysis pipeline
     sentiment_pipeline = pipeline("sentiment-analysis")
 
