@@ -94,13 +94,13 @@ Computes emotion scores for each message. For this, `text2emotion` is used which
 
 # Results (screenshots)
 
-See the pdf ourput files uploaded as `output1.pdf` and `output2.pdf`.
+See the pdf ourput files uploaded as `output1.pdf`, `output2.pdf` `output3.pdf`.
 
 # In one extra hour I would add
 ###### (it might however be more than an hour but I'm just keeping it here)
 - add `transcript.txt` and `filler_words.txt` into a folder called `/data`  as it's a more common way of using input files.
 
-- When generating auto conversations, `langchain` offers a json parser for generating a standard output. I would definely go for that since, in some cases (eventhough the prompt is set correctly), some unwanted words might be presented by LLM in the begining of a text which is not ideal. Using that parser can grauantee such output structure for conversations. see [1].
+- When generating auto conversations, `langchain` tools offers a json parser for generating a standard output. I would definely go for that since, in some cases (eventhough the prompt is set correctly), some unwanted words might be presented by LLM in the begining of a text which is not ideal. Using that parser can grauantee such output structure for conversations. see [1].
 
 - As of now, the unit test functions are tightly coupled with input files which is not the best programming practice. It's best if the testing function being decoupled. By that, I mean the functions should be well established and work for all inputs and check things based on all inputs. But, now they just consider hardcoded files like `transcripts.txt` or `filler_words.txt`.
 
