@@ -85,6 +85,10 @@ What it shows: Whether the conversation is balanced or dominated by one speaker.
 Computes emotion scores for each message. For this, `text2emotion` is used which automatically calculates the following emotions in text:
 <pre>emotion_cols = ['Happy', 'Angry', 'Surprise', 'Sad', 'Fear']</pre>
 
+### Conversation Taggings:
+An ability that overcome the limitation of `text2emotion` since it can allow you specify the tags and sentimisent for yourself (customized).
+
+        
 # Potential Issues
 
 - The `text2emotion` package relies on an older version of the `emoji` library, where `emoji.UNICODE_EMOJI` or `emoji.EMOJI_DATA` was available. In more recent versions (from `emoji>=2.0.0`), these internal data structures were moved or removed. If you run into errors, you need to replace   `emoji.UNICODE_EMOJI` with `emoji.EMOJI_DATA` in 
@@ -107,6 +111,10 @@ See the pdf ourput files uploaded as `output1.pdf`, `output2.pdf` and `output3.p
 - In `gen_auto_sample_conversation()` function `SystemMessage` and `HumnanMessage` for LLM can be put in another file to read them (cleaner code practice I believe). Or in `render_and_visualize()` function, `css` codes can be in separate files.
 
 - As might be obvious, if we have extra resources, they can be spent on researching what meaningful information can be captured from conversations, as is common practice in conversation analysis. I crudely asked ChatGPT about such things, but it seems like they require additional third-party tools (LDA, BERTopic, Top2Vec, AllenNLP, TextBlob) and more research (assuming the answer isn't hallucinated).
+
+# Last updates
+- 28-05-2025: streamlit states added to aboid recomputing everything from scratch for all options selected.
+- 28-05-2025: Codes cleaned.
 
 # Resource
 [1] https://nanonets.com/blog/langchain/?utm_source=chatgpt.com#module-ii-retrieval
