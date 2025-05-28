@@ -98,7 +98,7 @@ An ability that overcome the limitation of `text2emotion` since it can allow you
 
 # Results (screenshots)
 
-See the pdf ourput files uploaded as `output1.pdf`, `output2.pdf` and `output3.pdf`.
+See the pdf ourput files uploaded as `output1.pdf`.
 
 # In one extra hour I would add
 ###### (it might however be more than an hour but I'm just keeping it here)
