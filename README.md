@@ -82,12 +82,12 @@ What it shows: Whether the conversation is balanced or dominated by one speaker.
 
 
 ### Emotion Breakdown per Speaker
-Computes emotion scores for each message. For this, `text2emotion` is used which automatically calculates the following emotions in text:
+Computes emotion scores (using  `text2emotion`)  for each message. For this, `text2emotion` is used which automatically calculates the following emotions in text:
 <pre>emotion_cols = ['Happy', 'Angry', 'Surprise', 'Sad', 'Fear']</pre>
 
 ### Conversation Taggings:
 An ability that overcome the limitation of `text2emotion` since it can allow you specify the tags and sentimisent for yourself (customized).
-
+Under the hood, if uses `langchain.chains` and `pydantics` for customizing the tags where LLM outputs are customized to analyse and tag the conversation.
         
 # Potential Issues
 
