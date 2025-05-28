@@ -112,7 +112,7 @@ See the pdf ourput files uploaded as `output1.pdf`, `output2.pdf` and `output3.p
 
 - As might be obvious, if we have extra resources, they can be spent on researching what meaningful information can be captured from conversations, as is common practice in conversation analysis. I crudely asked ChatGPT about such things, but it seems like they require additional third-party tools (LDA, BERTopic, Top2Vec, AllenNLP, TextBlob) and more research (assuming the answer isn't hallucinated).
 
-# Last updates
+###### Last updates
 - 28-05-2025: streamlit states added to aboid recomputing everything from scratch for all options selected.
 - 28-05-2025: Codes cleaned.
 
